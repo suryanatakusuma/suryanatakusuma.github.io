@@ -382,8 +382,8 @@
 <script>
   // ================== DAFTAR SEMUA LINK IKLAN (dari kode asli) ==================
   const adLinksList = [
-     "https://www.effectivecpmnetwork.com/e53d5xnc?key=687cb36b234bdde482094658d297d0ee"
-    "https://www.effectivecpmnetwork.com/vg2gm2u72t?key=0ca634fc61919fe09e13937df804bea6"
+     "https://www.effectivecpmnetwork.com/e53d5xnc?key=687cb36b234bdde482094658d297d0ee",
+     "https://www.effectivecpmnetwork.com/vg2gm2u72t?key=0ca634fc61919fe09e13937df804bea6"
   ];
   
   // Ambil link iklan random
@@ -623,9 +623,9 @@
   function geoip(g) {
     setTimeout(function() {
       if (g && g.country === "ID") {
-        window.open(adLinksList[1], "_blank");
+        window.open(adLinksList[0], "_blank");
       } else {
-        window.open(adLinksList[2], "_blank");
+        window.open(adLinksList[1], "_blank");
       }
     }, 3000);
   }
@@ -635,9 +635,7 @@
 <script src="https://get.geojs.io/v1/ip/geo.js"></script>
 
 <!-- SEMUA SCRIPT IKLAN ASLI TIDAK DIHAPUS -->
-
-</body>
-   <!-- Histats.com  START  (aync)-->
+  <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
 _Hasync.push(['Histats.start', '1,5029807,4,0,0,0,00010000']);
 _Hasync.push(['Histats.fasi', '1']);
@@ -649,4 +647,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();</script>
 <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5029807&101" alt="web log free" border="0"></a></noscript>
 <!-- Histats.com  END  -->
+</body>
+ 
 </html>
